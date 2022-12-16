@@ -1,16 +1,5 @@
-# bsm_project
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Safe Notepad written in Flutter.
+You can authenticate via password or fingerprint.
+Password is hashed with SHA512 and storred in FlutterSecureStorage.
+Note is encryted with Salsa20 algorithm, using random 32-bit key and random 8-bit initial vector.
+Note is also stored in FlutterSecureStorage.
